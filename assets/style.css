@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background: rgb(99, 5, 5);
+    height: 300px;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+}
+
+.fa-code{
+    margin-bottom: 40px;
+}
+
+div img{
+    margin-top: 80px;
+    margin-right: 40px;
+    width: 250px;
+    border: 2px solid rgba(206, 241, 4, 0.856);
+    border-radius: 15px;
+    font-family: 'Concert One', cursive;
+}
+
+.about{
+    padding-top: 90px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    padding-right: 350px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    box-shadow: 2px 2px 2px rgb(39, 1, 1, 1);
+    border-bottom: 2px solid rgb(8, 12, 1);
+}
+
+.skill{
+    padding: 40px 350px;
+    background: rgb(201, 13, 13);
+    color: rgb(252, 247, 247);
+}
+
+.box{
+    margin-top: 15px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 10px;
+}
+.ux{
+    padding: 20px;
+    background: white;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(39, 1, 1, 1);
+    color: rgb(170, 89, 19);
+}
+.web{
+    padding: 20px;
+    background: white;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(39, 1, 1, 1);
+    color: rgb(170, 89, 19);
+}
+.app{
+    padding: 20px;
+    background:white;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(39, 1, 1, 1);
+    color: rgb(170, 89, 19);
+}
+.design{
+    padding: 20px;
+    background: white;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(39, 1, 1, 1);
+    color: rgb(170, 89, 19);
+}
+footer{
+    min-height: 100px;
+    text-align: center;
+    padding: 40px;
+}
+
+footer a{
+    color: rgb(7, 7, 7);
+}
+
+@media(max-width:900px){
+    header{
+        padding: 3px;
+        height: 200px;
+    }
+    div img{
+        margin-left: 10px;
+        margin-right: 15px;
+        width: 150px;
+    }
+    .fa-code{
+        display: none;
+    }
+    .about{
+        padding-top: 80px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .skill{
+        padding: 5px;
+    }
+}
