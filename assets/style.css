@@ -41,7 +41,12 @@ div img {
     color: rgb(252, 247, 247);
 }
 
+hr{
+    margin-top: 20px;
+}
+
 .box {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -121,7 +126,11 @@ footer a {
         padding: 20px;
         justify-content: center;
     }
+    hr{
+        margin-top: 20px;
+    }
     .box {
+        margin-top: 20px;
         justify-content: center; 
     }
     .ux {
